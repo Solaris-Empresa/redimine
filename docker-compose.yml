@@ -48,11 +48,11 @@ services:
 
       - SMTP_ENABLED=true
       - SMTP_METHOD=smtp
-      - SMTP_DOMAIN=www.example.com
-      - SMTP_HOST=smtp.gmail.com
+      - SMTP_DOMAIN=mailgun.org
+      - SMTP_HOST=smtp.mailgun.org
       - SMTP_PORT=587
-      - SMTP_USER=uires.tapajos@iasolaris.com.br
-      - SMTP_PASS=fvjyivitpvipkfpw
+      - SMTP_USER=suporte@iasolaris.com.br
+      - SMTP_PASS=2c9e3f9c6defb9aa9a4233f4e136715c-667818f5-a4efefd7
       - SMTP_STARTTLS=true
       - SMTP_AUTHENTICATION=:login
 
